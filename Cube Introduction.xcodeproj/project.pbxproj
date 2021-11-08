@@ -7,19 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		493C7F8427394518001C3DAF /* AllcubesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493C7F8327394518001C3DAF /* AllcubesView.swift */; };
+		493C7F8727395D81001C3DAF /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493C7F8627395D81001C3DAF /* AnimationView.swift */; };
 		499228AA2738B73D00D3DA48 /* Cube_IntroductionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499228A92738B73D00D3DA48 /* Cube_IntroductionApp.swift */; };
 		499228AC2738B73D00D3DA48 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499228AB2738B73D00D3DA48 /* ContentView.swift */; };
 		499228AE2738B74600D3DA48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 499228AD2738B74600D3DA48 /* Assets.xcassets */; };
 		499228B12738B74600D3DA48 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 499228B02738B74600D3DA48 /* Preview Assets.xcassets */; };
+		499228C22738BA1800D3DA48 /* CubeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499228B92738BA1800D3DA48 /* CubeRow.swift */; };
+		499228C32738BA1800D3DA48 /* cube.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499228BA2738BA1800D3DA48 /* cube.swift */; };
+		499228C42738BA1800D3DA48 /* cubeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499228BB2738BA1800D3DA48 /* cubeDetail.swift */; };
+		499228C52738BA1800D3DA48 /* PhoneList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499228BC2738BA1800D3DA48 /* PhoneList.swift */; };
+		499228C62738BA1800D3DA48 /* phoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499228BD2738BA1800D3DA48 /* phoneView.swift */; };
+		499228C72738BA1800D3DA48 /* otherCubeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499228BE2738BA1800D3DA48 /* otherCubeView.swift */; };
+		499228C82738BA1800D3DA48 /* phone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499228BF2738BA1800D3DA48 /* phone.swift */; };
+		499228C92738BA1800D3DA48 /* PhoneRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499228C02738BA1800D3DA48 /* PhoneRow.swift */; };
+		499228CA2738BA1800D3DA48 /* worldRecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499228C12738BA1800D3DA48 /* worldRecordView.swift */; };
+		499228D52739072F00D3DA48 /* videoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499228D42739072F00D3DA48 /* videoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		493C7F8327394518001C3DAF /* AllcubesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AllcubesView.swift; path = "/Users/user16/Desktop/Cube Introduction/Cube Introduction/AllcubesView.swift"; sourceTree = "<absolute>"; };
+		493C7F8627395D81001C3DAF /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
 		499228A62738B73D00D3DA48 /* Cube Introduction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cube Introduction.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		499228A92738B73D00D3DA48 /* Cube_IntroductionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cube_IntroductionApp.swift; sourceTree = "<group>"; };
 		499228AB2738B73D00D3DA48 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		499228AD2738B74600D3DA48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		499228B02738B74600D3DA48 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		499228B22738B74600D3DA48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		499228B92738BA1800D3DA48 /* CubeRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CubeRow.swift; sourceTree = "<group>"; };
+		499228BA2738BA1800D3DA48 /* cube.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cube.swift; sourceTree = "<group>"; };
+		499228BB2738BA1800D3DA48 /* cubeDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cubeDetail.swift; sourceTree = "<group>"; };
+		499228BC2738BA1800D3DA48 /* PhoneList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneList.swift; sourceTree = "<group>"; };
+		499228BD2738BA1800D3DA48 /* phoneView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = phoneView.swift; sourceTree = "<group>"; };
+		499228BE2738BA1800D3DA48 /* otherCubeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = otherCubeView.swift; sourceTree = "<group>"; };
+		499228BF2738BA1800D3DA48 /* phone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = phone.swift; sourceTree = "<group>"; };
+		499228C02738BA1800D3DA48 /* PhoneRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneRow.swift; sourceTree = "<group>"; };
+		499228C12738BA1800D3DA48 /* worldRecordView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = worldRecordView.swift; sourceTree = "<group>"; };
+		499228D42739072F00D3DA48 /* videoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = videoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +76,16 @@
 		499228A82738B73D00D3DA48 /* Cube Introduction */ = {
 			isa = PBXGroup;
 			children = (
+				493C7F8327394518001C3DAF /* AllcubesView.swift */,
 				499228A92738B73D00D3DA48 /* Cube_IntroductionApp.swift */,
 				499228AB2738B73D00D3DA48 /* ContentView.swift */,
+				499228BA2738BA1800D3DA48 /* cube.swift */,
+				499228BB2738BA1800D3DA48 /* cubeDetail.swift */,
+				499228B92738BA1800D3DA48 /* CubeRow.swift */,
+				499228BE2738BA1800D3DA48 /* otherCubeView.swift */,
+				499228C12738BA1800D3DA48 /* worldRecordView.swift */,
+				493C7F8627395D81001C3DAF /* AnimationView.swift */,
+				499228D42739072F00D3DA48 /* videoView.swift */,
 				499228AD2738B74600D3DA48 /* Assets.xcassets */,
 				499228B22738B74600D3DA48 /* Info.plist */,
 				499228AF2738B74600D3DA48 /* Preview Content */,
@@ -64,6 +96,10 @@
 		499228AF2738B74600D3DA48 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				499228BF2738BA1800D3DA48 /* phone.swift */,
+				499228BC2738BA1800D3DA48 /* PhoneList.swift */,
+				499228C02738BA1800D3DA48 /* PhoneRow.swift */,
+				499228BD2738BA1800D3DA48 /* phoneView.swift */,
 				499228B02738B74600D3DA48 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -138,8 +174,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				499228C52738BA1800D3DA48 /* PhoneList.swift in Sources */,
+				499228C92738BA1800D3DA48 /* PhoneRow.swift in Sources */,
+				499228C42738BA1800D3DA48 /* cubeDetail.swift in Sources */,
+				499228C82738BA1800D3DA48 /* phone.swift in Sources */,
+				499228D52739072F00D3DA48 /* videoView.swift in Sources */,
+				499228C72738BA1800D3DA48 /* otherCubeView.swift in Sources */,
+				499228CA2738BA1800D3DA48 /* worldRecordView.swift in Sources */,
+				499228C62738BA1800D3DA48 /* phoneView.swift in Sources */,
+				499228C32738BA1800D3DA48 /* cube.swift in Sources */,
+				493C7F8427394518001C3DAF /* AllcubesView.swift in Sources */,
 				499228AC2738B73D00D3DA48 /* ContentView.swift in Sources */,
+				493C7F8727395D81001C3DAF /* AnimationView.swift in Sources */,
 				499228AA2738B73D00D3DA48 /* Cube_IntroductionApp.swift in Sources */,
+				499228C22738BA1800D3DA48 /* CubeRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,16 +1,25 @@
 //
 //  ContentView.swift
-//  Cube Introduction
+//  app1
 //
-//  Created by User16 on 2021/11/8.
+//  Created by User16 on 2021/10/20.
 //
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        TabView {
+            AllcubesView()
+            .tabItem { Label("All cubes", systemImage:"network") }
+            
+            worldRecordView()
+            .tabItem { Label("world records", systemImage: "crown.fill") }
+            
+            otherCubeView()
+            .tabItem { Label("other cubes", systemImage: "bonjour") }
+        }
+        
     }
 }
 
