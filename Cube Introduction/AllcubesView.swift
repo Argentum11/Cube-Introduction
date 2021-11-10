@@ -12,8 +12,7 @@ struct AllcubesView: View {
     let cubePictureWall=[Cube.RubikCube,Cube.RubikRevenge,Cube.ProfessorCube,Cube.VCube6,Cube.VCube7,Cube.RubikClock,Cube.Megaminx,Cube.Pyraminx,Cube.Skewb,Cube.Square1,Cube.GhostCube,Cube.MirrorCube,Cube.AxisCube]
     var body: some View {
         NavigationView {
-            
-            VStack {
+  
                 List{
                     
                     ScrollView(.horizontal){
@@ -46,12 +45,13 @@ struct AllcubesView: View {
                         }
                     }
                     
+                    NavigationLink("再見街貓BOB 預告", destination: videoView())
+                       .font(.largeTitle)
+                       .foregroundColor(.red)
                 }
                 
-                NavigationLink("再見街貓BOB 預告", destination: videoView())
-                   .font(.largeTitle)
-                   .foregroundColor(.red)
-            }
+               
+            
             .navigationTitle("各種魔術方塊介紹")
         }
     }
